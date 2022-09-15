@@ -17,8 +17,8 @@ if(rumus=='1'):
 elif(rumus=='2'):
     print ("Menghitung Luas kubus")
     sisi = int(input('luas sisi : '))
-    L = sisi*sisi*sisi
-    print("Jika luas sisi kubus adalah",sisi,"maka luas kubus adalah", L )
+    V = sisi*sisi*sisi
+    print("Jika luas sisi kubus adalah",sisi,"maka volume kubus adalah", V)
 else:
     print("Maaf yang anda masukkan salah")    
 
